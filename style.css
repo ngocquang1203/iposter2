@@ -1,0 +1,108 @@
+body {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: #ffffff;
+    position: relative;
+    width: 320px;
+    height: 500px;
+    margin: 0px auto;
+    border: 1px solid #e7e7e7;
+    box-sizing: border-box;
+}
+
+#banner {
+    height: 180px;
+    width: 320px;
+
+}
+
+#main {
+    width: 320px;
+    height: 320px;
+    margin-top: -10px;
+}
+
+#main ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main ul li {
+    list-style: none;
+    clear: left;
+    position: relative;
+}
+
+#main ul li img {
+    width: 90px;
+    height: 90px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#main ul li p {
+    line-height: 17px;
+}
+
+#main ul li h3 {
+    color: red;
+    font-size: 16px;
+    line-height: 18px;
+    align-items: center;
+
+}
+
+#main ul li h3 del {
+    color: black;
+}
+
+#footer {
+    font-size: 10px;
+    width: 320px;
+    height: 20px;
+    margin-top: -30px;
+}
+
+#footer p {
+    width: 320px;
+}
+
+#footer p h.text-1 {
+    color: #FC7A07;
+    position: absolute;
+    left: 10px;
+}
+
+#footer p h.text-2{
+    left: 42px;
+    position: absolute;
+}
+
+#footer p h.text-3 {
+    float: right;
+}
+
+#footer p h.text-4 {
+    float: right;
+    color: #02ad49;
+    margin-right: 5px;
+}
+
+#footer i.fas {
+    position: absolute;
+    right: 50%;
+    top: 97%;
+}
+
+.discount {
+    position: absolute;
+    left: 62px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-weight: 900;
+}
